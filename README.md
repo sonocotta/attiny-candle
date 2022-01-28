@@ -80,7 +80,6 @@ Please find more info in the each of the project's readme
 - [attiny-candle-mouse](/firmware/attiny-candle-mouse) - Device acts as a mouse shaking the cursor. Button used as a switch.
 - [attiny-candle-red-green-light](/firmware/attiny-candle-red-green-light) - Go-No-Go game using RGB leds
 - [attiny-candle-rtc-clock](/firmware/attiny-candle-rtc-clock) - Sample digital clock project
-- [attiny-oled-test](/firmware/attiny-oled-test) - Simple demonstration of OLED working with both standard and light TwoWire implementation.
 
 ## Where to buy
 
