@@ -9,8 +9,18 @@ On the RGB Flavoured board it used LEDs to display current status. OLED Flavoure
 
 ## How to flash
 
-...
+Use `Build` and `Upload` task in the appropriate Platformio environment
+- Attiny85 environments with USB upload protocol - press RESET button once asked to connect device
+
+![Flashing with Platformio](images/simplescreenrecorder-2022-01-29_21.42.01.mkv.gif)
 
 ## Demo
 
-...
+### ATtiny85 with RGB leds
+
+![ATtiny85 with RGB leds](images/VID_20220129_213118.mp4.gif)
+
+### ATtiny85 with OLED screen
+
+![ATtiny85 with OLED screen](images/VID_20220129_213224.mp4.gif)
+

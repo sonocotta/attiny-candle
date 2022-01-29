@@ -1,7 +1,7 @@
 #include <DigiMouse.h>
 
-const int SHIFT_PX = 5;
-const int SHIFT_PY = 5;
+const int SHIFT_PX = 10;
+const int SHIFT_PY = 10;
 
 #ifdef RGB_ENABLED
 #include <light_ws2812.h>
@@ -111,18 +111,18 @@ void loop()
       break;
 
     case 1:
-      DigiMouse.moveX(-SHIFT_PX);
-      DigiMouse.moveY(SHIFT_PY);
+      DigiMouse.moveX(SHIFT_PX);
+      DigiMouse.moveY(-SHIFT_PY);
       break;
 
     case 2:
-      DigiMouse.moveX(SHIFT_PX);
+      DigiMouse.moveX(-SHIFT_PX);
       DigiMouse.moveY(-SHIFT_PY);
       break;
 
     case 3:
       DigiMouse.moveX(-SHIFT_PX);
-      DigiMouse.moveY(-SHIFT_PY);
+      DigiMouse.moveY(SHIFT_PY);
       break;
     }
   }
