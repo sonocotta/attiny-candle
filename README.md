@@ -9,7 +9,7 @@ ATtiny85 boards are based on [Micronucleos](https://github.com/micronucleus/micr
 
 ATtiny13 board in turn requires bare-chip code and external programmer, in general much more demanding, since it has a fraction of ATtiny85's resources.
 
-![image](https://user-images.githubusercontent.com/5459747/151518458-3be742e7-5b9d-4d59-91a2-0ebae36c39b3.png)
+![image](https://user-images.githubusercontent.com/5459747/151707251-51a888a1-b9d6-4f83-a34f-62eab09ccd76.png)
 
 ## Main features
 
@@ -56,6 +56,14 @@ You can use [USBASP](https://www.fischl.de/usbasp/) or aby other AVR chip progra
 Please find hardware schematics in the [hardware](/hardware) folder
 
 ### T13 RGB Flavor
+
+![image](https://user-images.githubusercontent.com/5459747/151707337-ce46ca04-491c-408e-a4f3-72cd2d1642c1.png)
+
+- ![image](https://user-images.githubusercontent.com/5459747/151518836-28a5a8f1-82a3-4762-ad94-a7ed43a5d9cf.png) ATTINY13 MCU
+- ![image](https://user-images.githubusercontent.com/5459747/151518872-c2e90082-bbfe-489d-924d-f8ae88180231.png) USB conenction (For power only)
+- ![image](https://user-images.githubusercontent.com/5459747/151518917-84c9b826-9375-43b6-9d1d-6bb9fdaeb50d.png) User-programmable buttons with de-bounce filters
+- ![image](https://user-images.githubusercontent.com/5459747/151518934-36d695a7-d2d1-4932-be82-0e4f6e6d1977.png) 4x WS2812 addressable LEDs
+- ![image](https://user-images.githubusercontent.com/5459747/151518956-53783cce-99a6-4c30-965a-5d6ef105ddc5.png) ISP programming header (for flashing)
 
 ### T85 RGB Flavor
 
