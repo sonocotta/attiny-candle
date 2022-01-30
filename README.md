@@ -104,7 +104,11 @@ Please find more info in the each of the project's readme
 
 ## Where to buy
 
-Order on [Tindie](https://www.tindie.com/products/sonocotta/attiny-candle/) store.
+Order at [Tindie](https://www.tindie.com/products/sonocotta/attiny-candle/)
+
+## Demo
+
+![Candle light](/firmware/attiny-candle/images/VID_20220129_211015.mp4.gif)
 
 ## Links
 
