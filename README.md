@@ -13,7 +13,7 @@ ATtiny13 board in turn requires bare-chip code and external programmer, in gener
 
 ## Main features
 
-It has three flawors: T13 RGB, T85 RGB, T85 OLED
+It has three flavors: T13 RGB, T85 RGB, T85 OLED
 
 |   | T13 RGB  | T85 RGB  | T85 OLED  |
 |---|---|---|---|
