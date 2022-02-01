@@ -30,6 +30,7 @@ It has three flavors: T13 RGB, T85 RGB, T85 OLED
 | RESET button  | No  | Yes  | Yes  | 
 | Outputs  | 4 individually controlled RGB leds  | 6 individually controlled RGB leds  | 32x128 Monochrome OLED screen | 
 | Additional Peripheral | - | - | PCF8563 RTC clock with CR2012 battery | 
+| Challenging | Yes, very much | Yes, quite | Yes, quite |
 
 ## How to use it
 
