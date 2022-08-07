@@ -24,6 +24,11 @@
 #define Effect CandleLed
 #endif
 
+#ifdef EFFECT_POLICE
+#include "effects/policelight.h"
+#define Effect PoliceLight
+#endif
+
 cRGB leds[NUM_PIXELS];
 Effect effect(NUM_PIXELS, leds);
 
