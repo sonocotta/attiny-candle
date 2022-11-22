@@ -1,5 +1,6 @@
 #include <DigiMouse.h>
 
+const int CIRCLE_RADIUS = 512;
 const int SHIFT_PX = 10;
 const int SHIFT_PY = 10;
 
@@ -89,6 +90,9 @@ void update_visual()
 #endif
 }
 
+int16_t x0 = 0;
+int16_t y0 = 0;
+
 void loop()
 {
 #ifdef PIN_BTN_1
@@ -103,28 +107,34 @@ void loop()
 
   if (enabled_state)
   {
-    switch (seq++ % 4)
-    {
-    case 0:
-      DigiMouse.moveX(SHIFT_PX);
-      DigiMouse.moveY(SHIFT_PY);
-      break;
+    int16_t x = CIRCLE_RADIUS * sin(seq);
+    int16_t y = CIRCLE_RADIUS * cos(seq);
+    DigiMouse.moveX(x0 - x);
+    DigiMouse.moveY(y0 - y);
+    x0 = x;
+    y0 = y;
+    // switch (seq++ % 4)
+    // {
+    // case 0:
+    //   DigiMouse.moveX(SHIFT_PX);
+    //   DigiMouse.moveY(SHIFT_PY);
+    //   break;
 
-    case 1:
-      DigiMouse.moveX(SHIFT_PX);
-      DigiMouse.moveY(-SHIFT_PY);
-      break;
+    // case 1:
+    //   DigiMouse.moveX(SHIFT_PX);
+    //   DigiMouse.moveY(-SHIFT_PY);
+    //   break;
 
-    case 2:
-      DigiMouse.moveX(-SHIFT_PX);
-      DigiMouse.moveY(-SHIFT_PY);
-      break;
+    // case 2:
+    //   DigiMouse.moveX(-SHIFT_PX);
+    //   DigiMouse.moveY(-SHIFT_PY);
+    //   break;
 
-    case 3:
-      DigiMouse.moveX(-SHIFT_PX);
-      DigiMouse.moveY(SHIFT_PY);
-      break;
-    }
+    // case 3:
+    //   DigiMouse.moveX(-SHIFT_PX);
+    //   DigiMouse.moveY(SHIFT_PY);
+    //   break;
+    // }
   }
 
   update_visual();
