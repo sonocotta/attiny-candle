@@ -38,7 +38,7 @@ It has three flavors: T13 RGB, T85 RGB, T85 OLED
 
 All samples in this repo are provided as Platformio projects, please follow the official Platformio [installation guide](https://platformio.org/install) first.
 
-Open any of the included firware samples and build project using `Platformio: Build` task. Upload to target using `Platformio: Upload` task. Platformio will handle all the framework and library dependencies automatically.
+Open any of the included firmware samples and build the project using the `Platformio: Build` task. Upload to target using the `Platformio: Upload` task. Platformio will handle all the framework and library dependencies automatically.
 
 ![Programming via Pltformio IDE](/firmware/attiny-candle/images/simplescreenrecorder-2022-01-29_21.14.58.mkv.gif)
 
@@ -48,7 +48,7 @@ Please follow [Digispark tutorial](http://digistump.com/wiki/digispark/tutorials
 
 ### Standalone, using onboard ISP Header 
 
-You can use [USBASP](https://www.fischl.de/usbasp/) or aby other AVR chip programmer to flash ATTINY85 chip directly using onboard ISP connector
+You can use [USBASP](https://www.fischl.de/usbasp/) or any other AVR chip programmer to flash the ATTINY85 chip directly using the onboard ISP connector
 
 ![image](https://user-images.githubusercontent.com/5459747/151520622-ce635541-6a04-4b6d-98e0-ca0ace2ba5b7.png)
 
@@ -71,7 +71,7 @@ Please find hardware schematics in the [hardware](/hardware) folder
 ![image](https://user-images.githubusercontent.com/5459747/151518970-5fff1eeb-1583-44b2-a5eb-14ba637d89f3.png)
 
 - ![image](https://user-images.githubusercontent.com/5459747/151518836-28a5a8f1-82a3-4762-ad94-a7ed43a5d9cf.png) ATTINY85 MCU
-- ![image](https://user-images.githubusercontent.com/5459747/151518872-c2e90082-bbfe-489d-924d-f8ae88180231.png) USB conenction (with ESD protection)
+- ![image](https://user-images.githubusercontent.com/5459747/151518872-c2e90082-bbfe-489d-924d-f8ae88180231.png) USB connection (with ESD protection)
 - ![image](https://user-images.githubusercontent.com/5459747/151518899-f664732f-85cf-4f11-bc08-f04d78e741fb.png) RESET button
 - ![image](https://user-images.githubusercontent.com/5459747/151518917-84c9b826-9375-43b6-9d1d-6bb9fdaeb50d.png) User-programmable buttons with de-bounce filters
 - ![image](https://user-images.githubusercontent.com/5459747/151518934-36d695a7-d2d1-4932-be82-0e4f6e6d1977.png) 6x WS2812 addressable LEDs
@@ -83,7 +83,7 @@ Please find hardware schematics in the [hardware](/hardware) folder
 ![image](https://user-images.githubusercontent.com/5459747/151519947-02fbf1aa-5088-4b12-8a90-ee8d6ef9bbc0.png)
 
 - ![image](https://user-images.githubusercontent.com/5459747/151518836-28a5a8f1-82a3-4762-ad94-a7ed43a5d9cf.png) ATTINY85 MCU
-- ![image](https://user-images.githubusercontent.com/5459747/151518872-c2e90082-bbfe-489d-924d-f8ae88180231.png) USB conenction (with ESD protection)
+- ![image](https://user-images.githubusercontent.com/5459747/151518872-c2e90082-bbfe-489d-924d-f8ae88180231.png) USB connection (with ESD protection)
 - ![image](https://user-images.githubusercontent.com/5459747/151518899-f664732f-85cf-4f11-bc08-f04d78e741fb.png) RESET button
 - ![image](https://user-images.githubusercontent.com/5459747/151518917-84c9b826-9375-43b6-9d1d-6bb9fdaeb50d.png) User-programmable button with de-bounce filters
 - ![image](https://user-images.githubusercontent.com/5459747/151518934-36d695a7-d2d1-4932-be82-0e4f6e6d1977.png) SSD1306 32x128 OLED screen
@@ -92,12 +92,12 @@ Please find hardware schematics in the [hardware](/hardware) folder
 
 ## Firmware
 
-Please find more info in the each of the project's readme
+Please find more info in each of the project's readmes
 
 | Link  | Desc  | T13 RGB  | T85 RGB  | T85 OLED  |
 |---|---|---|---|---|
 | [attiny-candle](/firmware/attiny-candle)  | RGB visual effects demonstration  | Yes  | Yes  | Yes |
-| [attiny-candle-keyboard](/firmware/attiny-candle-keyboard) | Device acts as a keyboard, sending keystokes to the HOST. Button used as a switch. | No | Yes | Yes |
+| [attiny-candle-keyboard](/firmware/attiny-candle-keyboard) | Device acts as a keyboard, sending keystrokes to the HOST. Button is used as a switch. | No | Yes | Yes |
 | [attiny-candle-mouse](/firmware/attiny-candle-mouse) | Device acts as a mouse shaking the cursor. Button used as a switch. | No | Yes | Yes |
 | [attiny-candle-red-green-light](/firmware/attiny-candle-red-green-light) | Go-No-Go game using RGB leds  | Yes  | Yes  | Yes |
 | [attiny-candle-rtc-clock](/firmware/attiny-candle-rtc-clock) | Sample digital clock project | No | No | Yes |
@@ -105,7 +105,7 @@ Please find more info in the each of the project's readme
 
 ## Where to buy
 
-Order at [Tindie](https://www.tindie.com/products/sonocotta/attiny-candle/)
+Order at [Tindie](https://www.tindie.com/products/sonocotta/attiny-candle/) and [Elecrow](https://www.elecrow.com/attiny-candle.html)
 
 ## Demo
 
